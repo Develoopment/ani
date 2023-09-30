@@ -104,7 +104,7 @@ function NewEventModal() {
                     </div>
 
                     {/*Add option to invite other people here*/}
-                    <button type="submit" class="button is-success">Create</button>
+                    <button type="submit" class="button is-success" onClick={closeModal}>Create</button>
                 </form>
 
 
